@@ -1,5 +1,12 @@
 const Discord = require('discord.js');
+const fs = require('fs');
+
 const client = new Discord.Client();
+client.commands = new Discord.Collection();
+
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+
+
 const { prefix, token, bot_info } = require('./config.json');
 
 client.once('ready', () => {
@@ -9,21 +16,23 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-    if(!message.content.startsWith(prefix) || message.author.bot) return;
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
+    const args = message.content.slice(prefix.length).trim().split(' ');
+    const command = args.shift().toLowerCase();
 
-    if(message.content === `${prefix}ping`) {
-        message.channel.send(`**Pong!**`);
-    } else if(message.content === `Hi`) {
-        message.channel.send('Hey!');
-    } else if(message.content === `${prefix}servname`) {
-        message.channel.send(message.guild.name);
-        message.channel.send(`Total Members: ${message.guild.memberCount}`)
-    } else if(message.content === `${prefix}profile`) {
-        message.channel.send(`Username: ${message.author.username}`),
-        message.channel.send(`Date Account Made: ${message.author.createdAt}`),
-        message.channel.send(`ID: ${message.author.id}`),
-        message.channel.send(`Avatar: ${message.author.displayAvatarURL()}`);
+    if(!client.commands.has(command)) return;
+    try {
+        client.commands.get(command).execute(message, args);
+    }catch(error) {
+        console.error(error);
+        message.reply('There was an issue executing that command!');
     }
+
 });
 
 client.login(token);
+
+for(const file of commandFiles) {
+    const command = require(`./commands/${file}`);
+    client.commands.set(command.name, command);
+}
