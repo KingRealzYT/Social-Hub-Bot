@@ -4,11 +4,6 @@ const fs = require('fs');
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
-
-const { prefix, token, bot_info } = require('./config.json');
-
 // Music
 const { Player } = require('discord-player');
 const player = new Player(client);

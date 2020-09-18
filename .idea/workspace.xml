@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d67b15c-11f2-490d-9b2f-a923eb2b4280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SocialBot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands/music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/discord.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/discord.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hbGdpwmcmK57gbOPxsk0eT04xU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.10.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d67b15c-11f2-490d-9b2f-a923eb2b4280" name="Default Changelist" comment="" />
+      <created>1600272468786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600272468786</updated>
+      <workItem from="1600272469814" duration="12495000" />
+      <workItem from="1600383915912" duration="2169000" />
+    </task>
+    <task id="LOCAL-00001" summary="Inital Commit of the Bot">
+      <created>1600317164596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600317164596</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Commands Folder For Commands, Updated index.js to make it look more clean">
+      <created>1600318214805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600318214805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inital Commit of the Bot" />
+    <MESSAGE value="Added Commands Folder For Commands, Updated index.js to make it look more clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Commands Folder For Commands, Updated index.js to make it look more clean" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600273132537">
+      <screen x="1920" y="6" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.6.1920.1040@1920.6.1920.1040" timestamp="1600273132537" />
+    <state x="2663" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600275450160">
+      <screen x="1920" y="6" width="1920" height="1040" />
+    </state>
+    <state x="2663" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.6.1920.1040@1920.6.1920.1040" timestamp="1600275450160" />
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1600318214260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600318214260" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600283349737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600283349737" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600318217904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600318217904" />
+    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600282092560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600282092560" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1600317033444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600317033444" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600316347433">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.6.1920.1040@0.0.1920.1040" timestamp="1600316347433" />
+  </component>
+</project>
