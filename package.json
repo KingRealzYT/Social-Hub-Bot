@@ -9,8 +9,13 @@
   "author": "KingRealzYT",
   "license": "ISC",
   "dependencies": {
+    "discord-player": "^2.3.1",
     "discord.js": "^12.3.1",
     "eslint": "^7.9.0",
-    "fs": "0.0.1-security"
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "merge-options": "^3.0.3",
+    "node-fetch": "^2.6.1",
+    "ytpl": "^1.0.1"
   }
 }
