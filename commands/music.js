@@ -9,7 +9,7 @@ const { Player } = require('discord-player');
 const player = new Player(client);
 client.player = player;
 
-bot.on("message", async message => {
+client.on("message", async message => {
     const prefix = '/';
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
